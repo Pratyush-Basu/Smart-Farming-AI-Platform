@@ -1,0 +1,290 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+}
+
+.background {
+  background: url('forest-agriculture.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container, .signup-container {
+  background:white;
+ 
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f4f4f;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #228B22;
+  box-shadow: 0 0 8px rgba(34,139,34,0.5);
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #228B22, #006400);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #32CD32, #228B22);
+  transform: scale(1.05);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: #006400;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.register-link a:hover {
+  color: #32CD32;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2f4f4f;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.background-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: slideImages 30s infinite;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes slideImages {
+  0%   { background-image: url('img1.jpeg'); }
+  25%  { background-image: url('img2.jpeg'); }
+  50%  { background-image: url('img3.jpeg'); }
+  75%  { background-image: url('img4.jpeg'); }
+  100% { background-image: url('img1.jpeg'); }
+}
+
+header {
+  background-color: rgba(34, 139, 34, 0.9);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo img {
+  height: 70px;   /* adjust if needed */
+  width: auto;
+}
+
+
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px 40px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #006400;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+
+.farmer-name {
+  font-weight: bold;
+  animation: fadeSlide 3s ease-in-out;
+  transition: color 1s ease;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+nav .navlinks {
+            list-style-type:none;
+            text-align: end;
+          
+}
+
+
+nav .navlinks li {
+            display: inline-block;
+            transition: .5s;
+            
+}
+
+
+nav .navlinks a {
+            color: #ddd6d6;
+            margin-right: 2.5rem;
+            transition: .2s;
+             text-decoration: none;
+
+}
+  nav .navlinks li:hover {
+            transform: scale(1.4);
+        }
+
+nav .navlinks li a:hover {
+           color: white;
+            color: #0e0e0e;
+            transform: scale(1.2);
+}
+nav .navlinks li.logout a:hover {
+  color: #ff4d4d;
+  transform: scale(1.2);
+}
+
+
+  df-messenger {
+    --df-messenger-bot-message: #f1f8e9;
+    --df-messenger-user-message: #e3f2fd;
+    --df-messenger-button-titlebar-color: #2e7d32;
+    --df-messenger-chat-background-color: #ffffff;
+    --df-messenger-font-color: #000;
+    --df-messenger-send-icon: #2e7d32;
+    --df-messenger-microphone-color: #2e7d32;
+  }
+
+  df-messenger {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+

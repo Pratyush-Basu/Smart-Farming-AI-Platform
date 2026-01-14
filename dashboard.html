@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Agriculture - Dashboard</title>
+  <link rel="stylesheet" href="log.css" />
+</head>
+<body>
+
+<div class="background-slider"></div>
+
+<header>
+   <div class="logo">
+  <img src="logo.png" alt="Krishi Sahayak Logo">
+</div>
+ 
+  <nav>
+    <ul class="navlinks">
+      <li><a href="http://127.0.0.1:5000/">Crop Recommendation</a></li>
+      <li><a href="http://127.0.0.1:5000/fertilizer">Fertilizer</a></li>
+      <li><a href="#">Disease</a></li>
+      <li><a href="Irrigation\\irrigation.html">Smart Irrigation</a></li>
+      <li class="logout"><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="welcome">
+  <h2>
+    Welcome, 
+    <span id="farmerName" class="farmer-name">Krishi - সহায়ক</span>
+  </h2>
+  <p>Empowering your farm with AI & IoT</p>
+</section>
+
+
+<section class="features">
+  <div class="card">
+    <h3>🌾 Crop Recommendation</h3>
+    <p>AI-based crop suggestions.</p>
+    <button onclick="location.href='http://127.0.0.1:5000/'">Start</button>
+  </div>
+  <div class="card">
+    <h3>🧪 Fertilizer Guide</h3>
+    <p>Optimized fertilizer plans.</p>
+    <button onclick="location.href='http://127.0.0.1:5000/fertilizer'">Explore</button>
+  </div>
+  <div class="card">
+    <h3>🌿 Disease Detection</h3>
+    <p>Upload leaf images.</p>
+    <button>Detect</button>
+  </div>
+  <div class="card">
+    <h3>💧 Smart Irrigation</h3>
+    <p>Water-saving automation.</p>
+    <button onclick="location.href='Irrigation/irrigation.html'">Configure</button>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Krishi - সহায়ক</p>
+</footer>
+
+<script type="module" src="dashboard.js"></script>
+
+
+<!-- Dialogflow Messenger -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+<df-messenger
+  intent="WELCOME"
+  chat-title="Krishi Sahayak 🌱"
+  agent-id="d53a864f-5947-4fbc-9323-7a3f70e3cb7c"
+  language-code="en"
+  expand="false"
+></df-messenger>
+
+</body>
+</html>
