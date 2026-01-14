@@ -1,16 +1,16 @@
-#🌱 Krishi – সহায়ক
+# 🌱 Krishi – সহায়ক
 AI-Powered Smart Farming System
 
 Growing with Nature using AI & IoT
 
-#📌 Project Overview
+# 📌 Project Overview
 
 Krishi – সহায়ক is an AI + IoT–based smart farming system designed to assist farmers with data-driven decision-making.
 The system provides smart irrigation, fertilizer optimization, crop recommendation, plant disease detection, and an AI chatbot for farming guidance.
 
 The goal is to increase crop yield, reduce resource wastage, and make farming sustainable and intelligent.
 
-#🎯 Key Features
+# 🎯 Key Features
 
 🌾 Crop Recommendation based on soil nutrients (NPK), pH, rainfall & temperature
 
@@ -26,7 +26,7 @@ The goal is to increase crop yield, reduce resource wastage, and make farming su
 
 🔌 IoT Integration using ESP32 & sensors
 
-#🧠 System Architecture
+# 🧠 System Architecture
 
 The system integrates:
 
@@ -38,7 +38,7 @@ Backend services for processing & decision logic
 
 Web dashboard for user interaction
 
-#🗂️ Project Structure
+# 🗂️ Project Structure
 Krishi-Sahayak/
 │
 ├── Ai_bot_backend_agri/          # AI chatbot backend (LLM integration)
@@ -75,7 +75,7 @@ Krishi-Sahayak/
 │
 └── README.md
 
-#🔁 Workflow Explanation
+# 🔁 Workflow Explanation
 1️⃣ Smart Irrigation
 
 Soil moisture sensor collects data
@@ -146,7 +146,7 @@ Relay Module
 
 Water Pump
 
-#🚀 End-Sem / Demo Capabilities
+# 🚀 End-Sem / Demo Capabilities
 
 Web dashboard demo
 
@@ -158,7 +158,7 @@ Chatbot interaction
 
 Automatic irrigation using ESP32
 
-#🔮 Future Enhancements
+# 🔮 Future Enhancements
 
 Fully responsive mobile-friendly web app
 
@@ -170,7 +170,7 @@ ML-based adaptive irrigation
 
 Centralized database for historical analysis
 
-#👨‍💻 Team Members
+# 👨‍💻 Team Members
 
 Pratyush Basu
 
@@ -181,6 +181,6 @@ Trish Purkait
 Arju Chakraborty
 
 
-#📜 License
+# 📜 License
 
 This project is developed for academic and research purposes.
