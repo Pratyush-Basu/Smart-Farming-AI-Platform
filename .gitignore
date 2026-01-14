@@ -69,3 +69,14 @@ build/
 # ===============================
 # ESP32 / Arduino
 # ===============================
+
+
+
+
+
+
+
+# ML models
+*.pkl
+crop_recommendation_system/*.pkl
+crop_recommendation_system/.env
